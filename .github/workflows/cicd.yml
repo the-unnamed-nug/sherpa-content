@@ -6,7 +6,8 @@ on:
 jobs:
   trigger:
     runs-on: ubuntu-latest
-
+    permissions: 
+      actions: write
     steps:
       - name: Trigger Workflow in Another Repository
         env:
