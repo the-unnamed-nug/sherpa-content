@@ -2,6 +2,11 @@ name: Sherpa CI
 
 on: 
   push:
+    paths:
+    - '**.md'
+    - '**.yml'
+    - '**.js'
+    - '**.mdx'
   workflow_dispatch:
 jobs:
   trigger:
