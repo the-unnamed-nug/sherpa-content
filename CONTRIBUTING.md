@@ -17,7 +17,8 @@ However, there are some cases where it would be advisable to simply write up you
 
 1. A page includes any errors: typos, gramatical mistakes, syntax errors, etc.
 2. A page includes outdated information.
-3. A page discusses an area that you have extensive knowledge and experience with, and you think it would benefit the documentation to expand on the information. 
+3. A page discusses an area that you have extensive knowledge and experience with, and you think it would benefit the documentation to expand on the information.
+4. You are fluent in (an)other language(s) and you would like to translate a page.
 
 Do note that this list is not necessarily exhaustive.
 
@@ -103,3 +104,24 @@ As an example, we will look at Steam, with several useful options defined in nix
 
 Also note the commented explanation of option definition in the codeblock.
 
+## Translating Tips
+
+Ideally, Sherpa may be read in a variety of languages so that all may be able to easily understand its content. If you are comfortable with a language and wish to translate a page, feel free to do so and submit a PR.
+
+Please try to mimic the writing style and sentence structure of the English version. Example, as taken from the preface:
+
+> Alternatively, of course, NixOS has a manual. The manual is great.
+
+Translated into German:
+
+> Alternativ gibt es natürlich das offizielle Handbuch. Das Handbuch ist großartig.
+
+And translated into Italian:
+
+> Naturalmente, NixOS dispone anche di un manuale. Il manuale è ottimo.
+
+Even if you do not understand these languages, a good understanding of English should allow you to notice that the sentence structure in each of these remains the same.
+
+Oftentimes, translators will focus on conveying the meaning as opposed to the structure. This becomes an issue in the long run when after contribution after contribution, edit after edit, reword after reword, the meaning ends up being something different from intended. So rather than *only* focusing on the meaning, please try to represent the structure as well.
+
+Of course, only do so insofar as it does not sound strange in your language.
