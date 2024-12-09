@@ -7,7 +7,7 @@ about Linux and use this niche operating system? Well, to understand, we must
 first look at the advantages of Nix, the powerful package manager NixOS is built
 on.
 
-Nix advantages:
+### Nix advantages:
 
 - **The Nix Store**: Nix stores all packages in a special folder called the nix
   store, which exists in the /nix directory. In the nix store, a package is
@@ -49,7 +49,7 @@ Nix advantages:
 
 So, now that you know why you should use Nix, why use NixOS?
 
-NixOS advantages:
+### NixOS advantages:
 
 - **Declarative configuration**: the central feature of NixOS, other than the
   package manager, is the module system. Modules are pretty much a fancy term
